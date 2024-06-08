@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="Variables and Keywords">
+    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="Variables and Keywords Day 2 covered all lab excersice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EX-Lab05062024/Variables and Keywords.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX-Lab05062024/Variables and Keywords.py" afterDir="false" />
     </list>
@@ -23,6 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2023.3/python_stubs/-2002578525/builtins.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -34,12 +37,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.Data Type , String List , Intiger.executor&quot;: &quot;Run&quot;,
     &quot;Python.Print Command and upload on Git.executor&quot;: &quot;Run&quot;,
     &quot;Python.Variables and Keywords.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
   <component name="RunManager">
@@ -103,12 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717557837678</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Variables and Keywords Day 2 covered all lab excersice">
+      <option name="closed" value="true" />
+      <created>1717606301834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717606301834</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="EX03062024" />
     <MESSAGE value="Variables and Keywords" />
-    <option name="LAST_COMMIT_MESSAGE" value="Variables and Keywords" />
+    <MESSAGE value="Variables and Keywords Day 2 covered all lab excersice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Variables and Keywords Day 2 covered all lab excersice" />
   </component>
 </project>
