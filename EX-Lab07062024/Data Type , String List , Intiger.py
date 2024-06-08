@@ -88,3 +88,86 @@ print(first_name,last_name)
 #{} placeholder
 print(f'Your full name is {first_name} {last_name}')
 
+print(2*1)
+num = 90
+print(f'The number is {num*1}')
+print(f'The number is {num*2}')
+print(f'The number is {num*3}')
+
+num=5
+print(f'The number is {num}*1={num}')
+print(f'The number is {num}*2={num*2}')
+print(f'The number is {num}*3={num*3}')
+print(f'The number is {num}*4={num*4}')
+print(f'Then number is {num}*5={num*5}')
+
+B=1
+print(f'The number is {B}*1={B}')
+print("2*{}={},{}".format(B,B*2,3))
+
+#Strings
+#Functions - Repeat a task - You can use a function.
+# print() , input , type() , format() , max , min , id() , sum () , avg ()
+
+name = "Dhruvil"
+print(name)
+print(type(name))
+print(len(name))
+print(id(name))
+print(name.upper())
+D= name.count('D')
+print(D)
+print(name[1])
+
+
+name = "Dhruvil patel is not a good person"
+print(len(name))
+print(type(name))
+print(name[-1])
+
+
+val = None
+print(val)
+
+name=""
+print(name)
+name = None
+print(name)
+name = "Dhruvil"
+print(name)
+print(id(name))
+print(type(name))
+
+#Lists
+
+shopping_list = ["Bread" , "Butter" , "Pani-puri"]
+print(shopping_list)
+print(type(shopping_list))
+print(len(shopping_list))
+print(id(shopping_list))
+print(shopping_list[0])
+print(shopping_list[-1])
+shopping_list.append("curd")
+print(shopping_list)
+shopping_list.insert(1,"jam")
+print(shopping_list)
+shopping_list.extend(["Chips" , "Salt"])
+print(shopping_list)
+shopping_list.remove("Bread")
+print(shopping_list.pop())
+print(shopping_list.index("Butter"))
+shopping_list.reverse()
+shopping_list.sort()
+print(shopping_list)
+shopping_list[0]="Devil"
+print(shopping_list)
+
+my_list = [1,3.14,True,"Devil"]
+print(my_list)
+print(type(my_list))
+
+#Escap Sequence
+print("HEllo \"World\"")
+print("Hello \nWorld")
+print("Hello \tworld")
+print("Hello \bworld")
