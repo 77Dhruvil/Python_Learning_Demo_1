@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="Literals and Operators">
-      <change afterPath="$PROJECT_DIR$/Excersice 10062024/Assignment operator and Equality Operator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excersice 10062024/Input oprator program.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excersice 10062024/XOR Operator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excersice 10062024/power Operator.py" afterDir="false" />
+    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="Excersice (Task)">
+      <change afterPath="$PROJECT_DIR$/Excersice 10062024/Logical Program.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +41,7 @@
     "Python.Data Type , String List , Intiger.executor": "Run",
     "Python.Input oprator program.executor": "Run",
     "Python.Litrals and Oprators.executor": "Run",
+    "Python.Logical Program.executor": "Run",
     "Python.Print Command and upload on Git.executor": "Run",
     "Python.Variables and Keywords.executor": "Run",
     "Python.XOR Operator.executor": "Run",
@@ -170,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718038628931</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Excersice (Task)">
+      <option name="closed" value="true" />
+      <created>1718040100854</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718040100854</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,6 +185,7 @@
     <MESSAGE value="Variables and Keywords Day 2 covered all lab excersice" />
     <MESSAGE value="Data Tpye , String List , Intiger" />
     <MESSAGE value="Literals and Operators" />
-    <option name="LAST_COMMIT_MESSAGE" value="Literals and Operators" />
+    <MESSAGE value="Excersice (Task)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Excersice (Task)" />
   </component>
 </project>
