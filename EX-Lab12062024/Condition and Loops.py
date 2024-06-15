@@ -104,17 +104,107 @@
 #     i=i+1
 
 
-score = int(input("Enter your score: "))
+# score = int(input("Enter your score: "))
+#
+# if score >= 90 and score <= 100:
+#     print("Grade A")
+# elif score >= 80 and score <= 89:
+#     print("Grade B")
+# elif score >= 70 and score <= 79:
+#     print("Grade C")
+# elif score >= 60 and score <= 69:
+#     print("Grade D")
+# elif score >= 0 and score <= 59:
+#     print("Grade E")
+# else:
+#     print("Grade F")
+#
+# For Loops
+# for counter in range (0,100,2): #Even Numbers
+#     print(counter)
+#
+# for counter in range (1, 100, 2): #Odd Numbers
+#     print(counter)
 
-if score >= 90 and score <= 100:
-    print("Grade A")
-elif score >= 80 and score <= 89:
-    print("Grade B")
-elif score >= 70 and score <= 79:
-    print("Grade C")
-elif score >= 60 and score <= 69:
-    print("Grade D")
-elif score >= 0 and score <= 59:
-    print("Grade E")
-else:
-    print("Grade F")
+# for counter in range (1,100):
+#     print(counter)
+#     if counter == 5:
+#         break
+# print("outside of the program")
+
+# Range can be negative also
+
+# for i in range (10,0,-1):
+#     print(i)
+#
+# for i in reversed (range (0,10,1)):
+#     print(i)
+
+# Break : Based on the condition it will kick you out of the loop
+
+# for i in range(10):
+#     if i == 5 or i ==6 :
+#         pass
+#     else:
+#         print(i)
+#
+# for i in range (1,10):
+#      if i%3 == 0:
+#          print (i)
+#
+#      else:
+#          print(i*2)
+#
+
+# Multiple condition
+
+# numbers = int(input("Enter a number: "))
+# #3.10
+# match numbers:
+#     case 1:
+#         print("one")
+#         #break
+#     case 2:
+#         print("two")
+#         #break
+#     case 3:
+#         print("three")
+#         #break
+#     case _:
+#         print("Not a valid number")
+#
+
+# browser = str(input("Enter your browser: "))
+# browser = browser.lower()
+# match browser:
+#     case "chrome":
+#         print("Chrome")
+#         # break
+#     case "firefox":
+#         print("Firefox")
+#
+#     case _:
+#         print("Not a valid browser")
+
+
+#function
+
+# def greet():
+#     print("Hello")
+#
+# greet()
+
+    # def greet():
+    #     print("code is executed")
+    #     print("Hello")
+    #     print("bye")
+    # greet()
+    # greet()
+    # greet()
+
+#pass some info into func
+
+def greet(name):
+    print("Hello",name)
+
+greet("Devil")
