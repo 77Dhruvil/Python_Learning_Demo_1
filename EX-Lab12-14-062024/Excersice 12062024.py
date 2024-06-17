@@ -1,4 +1,5 @@
-#Create a program that determines whether a given year is a leap year.
+import math
+  # Create a program that determines whether a given year is a leap year.
 # A leap year is divisible by 4, but not by 100 unless it is also divisible by 400.
 # Use an if-else statement to make this determination.
 
@@ -14,6 +15,7 @@ def is_leap_year(year):
     else:
         return False  # year is not a leap year
 
+
 # Test the function
 year = int(input("Enter a year: "))
 
@@ -23,8 +25,7 @@ else:
     print(f"{year} is not a leap year.")
 
 
-#Write a program that classifies a triangle based on its side lengths.
-
+# Write a program that classifies a triangle based on its side lengths.
 
 
 # Given three input values representing the lengths of the sides, determine if the triangle is equilateral (all sides are equal), isosceles (exactly two sides are equal), or scalene (no sides are equal).
@@ -49,6 +50,7 @@ def classify_triangle(a, b, c):
     else:
         return "Scalene"
 
+
 # Get input from user
 a = float(input("Enter side 1: "))
 b = float(input("Enter side 2: "))
@@ -59,7 +61,8 @@ classification = classify_triangle(a, b, c)
 
 print(f"The triangle is {classification}.")
 
-#Task - Fibonacci series and Factorial
+
+# Task - Fibonacci series and Factorial
 
 
 # 3. Factorial
@@ -85,10 +88,12 @@ def fibonacci(n):
             fib_series.append(fib_series[-1] + fib_series[-2])
         return fib_series
 
+
 n = int(input("Enter the number of terms: "))
 print(fibonacci(n))
 
-#Fibonaci series
+
+# Fibonaci series
 # 0,0+1, 0+1+1,
 
 # n = 7
@@ -108,6 +113,41 @@ def fibonacci(n):
             fib_series.append(fib_series[-1] + fib_series[-2])
         return fib_series
 
+
 n = int(input("Enter the number of terms: "))
 print(fibonacci(n))
+
+# Leap Year
+
+year = 2024
+
+(year % 4 == 0)
+(year % 100 != 0)
+(year % 400 == 0)
+
+if (year % 4 == 0 and year % 100 != 0 or year % 400 == 0):
+    print("leap year")
+else:
+    print("not a leap year")
+
+# tringle
+
+side1 = 3
+side2 = 3
+side3 = 3
+
+if side1 == side2 == side3:
+    print("Equilateral triangle")
+elif side1 == side2 or side1 == side3 or side2 == side3:
+    print("Isosceles triangle")
+else:
+    print("Scalene triangle")
+
+#factorial
+
+n=5
+
+factorial =1
+result = math.factorial(n)
+print(result)
 

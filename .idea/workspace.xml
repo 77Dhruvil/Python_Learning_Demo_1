@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="Excersice (Task)">
-      <change afterPath="$PROJECT_DIR$/Excersice 10062024/Logical Program.py" afterDir="false" />
+    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="For , while , break , def">
+      <change afterPath="$PROJECT_DIR$/EX-10062024/All learning till now.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EX-Lab17062024/Functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EX-Lab12062024/Condition and Loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX-Lab12-14-062024/Condition and Loops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excersice 10062024/Logical Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Excersice 10062024/Logical Program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Excersice 12062024.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX-Lab12-14-062024/Excersice 12062024.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +41,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.All learning till now.executor": "Run",
     "Python.Assignment operator and Equality Operator.executor": "Run",
+    "Python.Condition and Loops.executor": "Run",
     "Python.Data Type , String List , Intiger.executor": "Run",
+    "Python.Excersice 12062024.executor": "Run",
+    "Python.Functions.executor": "Run",
     "Python.Input oprator program.executor": "Run",
     "Python.Litrals and Oprators.executor": "Run",
     "Python.Logical Program.executor": "Run",
@@ -52,7 +60,34 @@
     "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PATEL\PycharmProjects\Python Learning Demo 1\EX-Lab12062024" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration name="Condition and Loops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Learning Demo 1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EX-Lab12062024" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EX-Lab12062024/Condition and Loops.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Data Type , String List , Intiger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Learning Demo 1" />
       <option name="ENV_FILES" value="" />
@@ -99,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Condition and Loops" />
         <item itemvalue="Python.Data Type , String List , Intiger" />
         <item itemvalue="Python.Variables and Keywords" />
       </list>
@@ -176,7 +212,47 @@
       <option name="project" value="LOCAL" />
       <updated>1718040100854</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Logical program">
+      <option name="closed" value="true" />
+      <created>1718121357909</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718121357910</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Condition and loops">
+      <option name="closed" value="true" />
+      <created>1718299509029</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718299509029</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Condition and loops 1">
+      <option name="closed" value="true" />
+      <created>1718381933365</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718381933365</updated>
+    </task>
+    <task id="LOCAL-00011" summary="task">
+      <option name="closed" value="true" />
+      <created>1718383359709</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718383359709</updated>
+    </task>
+    <task id="LOCAL-00012" summary="For , while , break , def">
+      <option name="closed" value="true" />
+      <created>1718460083342</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718460083342</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -186,6 +262,11 @@
     <MESSAGE value="Data Tpye , String List , Intiger" />
     <MESSAGE value="Literals and Operators" />
     <MESSAGE value="Excersice (Task)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Excersice (Task)" />
+    <MESSAGE value="Logical program" />
+    <MESSAGE value="Condition and loops" />
+    <MESSAGE value="Condition and loops 1" />
+    <MESSAGE value="task" />
+    <MESSAGE value="For , while , break , def" />
+    <option name="LAST_COMMIT_MESSAGE" value="For , while , break , def" />
   </component>
 </project>
