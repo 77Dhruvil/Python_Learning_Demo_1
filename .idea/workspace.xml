@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="Functions.py">
-      <change afterPath="$PROJECT_DIR$/EX-Lab19062024/Function Scope.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="Function scope , Lambda expression , List">
+      <change beforePath="$PROJECT_DIR$/EX-Lab19062024/Function Scope.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX-Lab19062024/Function Scope.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718644940948</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Function scope , Lambda expression , List">
+      <option name="closed" value="true" />
+      <created>1718815427241</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718815427241</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -273,6 +280,7 @@
     <MESSAGE value="task" />
     <MESSAGE value="For , while , break , def" />
     <MESSAGE value="Functions.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functions.py" />
+    <MESSAGE value="Function scope , Lambda expression , List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Function scope , Lambda expression , List" />
   </component>
 </project>

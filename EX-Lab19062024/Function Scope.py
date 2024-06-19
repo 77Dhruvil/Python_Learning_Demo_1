@@ -108,4 +108,13 @@ my_list.clear()
 print("Intial list:",my_list)
 print(my_copy)
 
-print("Index of 3 in the list:",my_list.index(3))
+#print("Index of 3 in the list:",my_list.index(3))
+
+my_copy.sort()
+print(my_copy)
+
+my_copy.reverse()
+print(my_copy)
+
+print(my_copy[1])
+print(my_copy[2])
