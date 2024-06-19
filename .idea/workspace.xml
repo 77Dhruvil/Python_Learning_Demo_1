@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="For , while , break , def">
-      <change afterPath="$PROJECT_DIR$/EX-10062024/All learning till now.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EX-Lab17062024/Functions.py" afterDir="false" />
+    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="Functions.py">
+      <change afterPath="$PROJECT_DIR$/EX-Lab19062024/Function Scope.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EX-Lab12062024/Condition and Loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX-Lab12-14-062024/Condition and Loops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Excersice 10062024/Logical Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Excersice 10062024/Logical Program.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Excersice 12062024.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX-Lab12-14-062024/Excersice 12062024.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +42,7 @@
     "Python.Condition and Loops.executor": "Run",
     "Python.Data Type , String List , Intiger.executor": "Run",
     "Python.Excersice 12062024.executor": "Run",
+    "Python.Function Scope.executor": "Run",
     "Python.Functions.executor": "Run",
     "Python.Input oprator program.executor": "Run",
     "Python.Litrals and Oprators.executor": "Run",
@@ -252,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718460083342</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Functions.py">
+      <option name="closed" value="true" />
+      <created>1718644940948</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718644940948</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -267,6 +272,7 @@
     <MESSAGE value="Condition and loops 1" />
     <MESSAGE value="task" />
     <MESSAGE value="For , while , break , def" />
-    <option name="LAST_COMMIT_MESSAGE" value="For , while , break , def" />
+    <MESSAGE value="Functions.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functions.py" />
   </component>
 </project>
