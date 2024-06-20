@@ -78,43 +78,101 @@
 # pow_function = lambda : int(input("Enter a number: "))**2
 # print(pow_function())
 
-my_list = [1, 2, 3, 4, 5]
-
-#Indexing
-print("Element at index 0:", my_list[0])
-print("Element at index 2:", my_list[2])
-
-#Changing an element
-my_list[2] = 10
-print("List after changing an element at index 1 :",my_list)
-
-#append
-my_list.append(6)
-print("List after appending :",my_list)
-
-#extend
-my_list.extend([7, 8, 9])
-print("List after extending :",my_list)
+# my_list = [1, 2, 3, 4, 5]
+#
+# #Indexing
+# print("Element at index 0:", my_list[0])
+# print("Element at index 2:", my_list[2])
+#
+# #Changing an element
+# my_list[2] = 10
+# print("List after changing an element at index 1 :",my_list)
+#
+# #append
+# my_list.append(6)
+# print("List after appending :",my_list)
+#
+# #extend
+# my_list.extend([7, 8, 9])
+# print("List after extending :",my_list)
+#
+# #
+# # #insert
+# my_list.insert(3, 11)
+# print("List of Inserting ", my_list)
+#
+# my_copy = my_list.copy()
+# print(my_copy)
+#
+# my_list.clear()
+# print("Intial list:",my_list)
+# print(my_copy)
+#
+# #print("Index of 3 in the list:",my_list.index(3))
+#
+# my_copy.sort()
+# print(my_copy)
+#
+# my_copy.reverse()
+# print(my_copy)
+#
+# print(my_copy[1])
+# print(my_copy[2])
+#
+# my_list = [1, 2, 3, 4, 5]
+# my_list.sort()
+# print(my_list)
+#
+# square = [1,4,9,16,25]
+#
+# if not False:
+#     print("Not a square")
+# else:
+#         print("Square")
+#
+# # 1st way
+# list = [1,2,3,4,5,6,7,8,9,10]
+# temp_list=[]
+# for i in list:
+#     temp = i*2
+#     temp_list.append(temp)
+# print(temp_list)
+#
+#
+# # 2nd way
+# list = [1,2,3,4,5,6,7,8,9,10]
+# temp_list=[]
+# for i in list:
+#     temp_list.append( i*2)
+# print(temp_list)
 
 #
-# #insert
-my_list.insert(3, 11)
-print("List of Inserting ", my_list)
+# # 1st way
+# my_list = [1, 2, 3, 4, 5]
+#
+# def double_item(num):
+#     return num**2
+#
+# double_list = list(map(double_item, my_list))
+# print(double_list)
+#
+# #2nd way
+# my_list = [1, 2, 3, 4, 5]
+#
+# double_item = lambda num: num**2
+#
+# double_list = list(map(double_item, my_list))
+# print(double_list)
+#
+# #3rd way
+# my_list = [1, 2, 3, 4, 5]
+#
+# double_list = list(map(lambda num: num**2, my_list))
+# print(double_list)
 
-my_copy = my_list.copy()
-print(my_copy)
 
-my_list.clear()
-print("Intial list:",my_list)
-print(my_copy)
+# Tuple : Collection of items
 
-#print("Index of 3 in the list:",my_list.index(3))
-
-my_copy.sort()
-print(my_copy)
-
-my_copy.reverse()
-print(my_copy)
-
-print(my_copy[1])
-print(my_copy[2])
+my_Tuple = (1,2,3,4,5,6,7,8,9,10)
+my_Tuple[0] = 11
+print(my_Tuple)
