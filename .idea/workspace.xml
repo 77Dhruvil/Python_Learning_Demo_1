@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="Tuples , Decorators , Dictonary">
-      <change afterPath="$PROJECT_DIR$/Excersice 21062024/Programs.py" afterDir="false" />
+    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="Excersice programs">
+      <change afterPath="$PROJECT_DIR$/EX-Lab24062024/Filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EX-Lab26062024/OOPS Concept.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +43,13 @@
     "Python.Condition and Loops.executor": "Run",
     "Python.Data Type , String List , Intiger.executor": "Run",
     "Python.Excersice 12062024.executor": "Run",
+    "Python.Filters.executor": "Run",
     "Python.Function Scope.executor": "Run",
     "Python.Functions.executor": "Run",
     "Python.Input oprator program.executor": "Run",
     "Python.Litrals and Oprators.executor": "Run",
     "Python.Logical Program.executor": "Run",
+    "Python.OOPS Concept.executor": "Run",
     "Python.Print Command and upload on Git.executor": "Run",
     "Python.Programs.executor": "Run",
     "Python.Tuple and Decorators.executor": "Run",
@@ -291,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719137505000</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Excersice programs">
+      <option name="closed" value="true" />
+      <created>1719138578858</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719138578858</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -310,6 +321,7 @@
     <MESSAGE value="Function scope , Lambda expression , List" />
     <MESSAGE value="Function scope , Lambda expression , List , Tuple" />
     <MESSAGE value="Tuples , Decorators , Dictonary" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tuples , Decorators , Dictonary" />
+    <MESSAGE value="Excersice programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Excersice programs" />
   </component>
 </project>
