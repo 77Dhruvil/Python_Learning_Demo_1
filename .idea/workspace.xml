@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="Excersice programs">
-      <change afterPath="$PROJECT_DIR$/EX-Lab24062024/Filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EX-Lab26062024/OOPS Concept.py" afterDir="false" />
+    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="Filters and OOPs concept">
+      <change afterPath="$PROJECT_DIR$/EX-Lab26062024/OOPS Concept(1).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EX-Lab26062024/OOPS Concept.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX-Lab26062024/OOPS Concept.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,7 @@
     "Python.Input oprator program.executor": "Run",
     "Python.Litrals and Oprators.executor": "Run",
     "Python.Logical Program.executor": "Run",
+    "Python.OOPS Concept(1).executor": "Run",
     "Python.OOPS Concept.executor": "Run",
     "Python.Print Command and upload on Git.executor": "Run",
     "Python.Programs.executor": "Run",
@@ -59,10 +60,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/PATEL/PycharmProjects/Python Learning Demo 1/EX-Lab26062024",
     "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PATEL\PycharmProjects\Python Learning Demo 1\EX-Lab26062024" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PATEL\PycharmProjects\Python Learning Demo 1\EX-Lab12062024" />
     </key>
@@ -302,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719138578858</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Filters and OOPs concept">
+      <option name="closed" value="true" />
+      <created>1719420946289</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719420946289</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -322,6 +335,7 @@
     <MESSAGE value="Function scope , Lambda expression , List , Tuple" />
     <MESSAGE value="Tuples , Decorators , Dictonary" />
     <MESSAGE value="Excersice programs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Excersice programs" />
+    <MESSAGE value="Filters and OOPs concept" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filters and OOPs concept" />
   </component>
 </project>
