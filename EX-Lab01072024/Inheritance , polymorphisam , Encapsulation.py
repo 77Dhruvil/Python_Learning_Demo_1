@@ -179,29 +179,139 @@ class Parent:
 #####################################################################################################
 
 #Hybride Inheritance
+#
+# class A:
+#
+#     def methodA(self):
+#         return "Method A"
+#
+# class B(A):
+#
+#     def methodB(self):
+#         return "Method B"
+#
+# class C(A):
+#
+#     def methodC(self):
+#         return "Method C"
+#
+# class D(B, C):
+#
+#     def methodD(self):
+#         return "Method D"
+#
+# d = D()
+# print(d.methodA())
+# print(d.methodB())
+# print(d.methodC())
+# print(d.methodD())
 
-class A:
+################################################################################################
 
-    def methodA(self):
-        return "Method A"
+#Polymorphisam
 
-class B(A):
+#Method Overriding
+#
+# class Shape:
+#
+#     def area(self):
+#         print("Area of shape")
+#
+# class Rectangle(Shape):
+#
+#     def __init__(self,length,width):
+#         self.length = length
+#         self.width = width
+#
+#     def area(self):
+#         return self.length * self.width
+#
+#
+# class Circle(Shape):
+#
+#     def __init__(self, radius):
+#         self.radius = radius
+#
+#     def area(self):
+#         return 3.14 * self.radius ** 2
+#
+# shape1 = Rectangle(3,4)
+# print(shape1.area())
+#
+# shape2 = Circle(10)
+# print(shape2.area())
+#
+# shape3 = Shape()
+# print(shape3.area())
 
-    def methodB(self):
-        return "Method B"
+#
+#
+# class Father:
+#
+#     def home(self):
+#         print("1 BHK")
+#
+# class son (Father):
+#
+#     def home(self):
+#         super().home()
+#         print("2 BHK")
+#
+# Dhruvil = son()
+# Dhruvil.home()
 
-class C(A):
+##################################################################
 
-    def methodC(self):
-        return "Method C"
+#Abstraction
+#
+# from abc import ABC, abstractmethod
+#
+# class Animal(ABC):
+#     def __init__(self,name):
+#         self.name = name
+#
+#     @abstractmethod
+#     def sound(self):
+#         pass
+#
+#
+# class Dog(Animal):
+#     def sound(self):
+#
+#         return "Barking"
+#
+# class cat(Animal):
+#     def sound(self):
+#
+#         return "Meow"
+#
+# dog = Dog("Buddy")
+# print(dog.sound())
+#
+# cat = cat("Whiskers")
+# print(cat.sound())
 
-class D(B, C):
 
-    def methodD(self):
-        return "Method D"
+#
 
-d = D()
-print(d.methodA())
-print(d.methodB())
-print(d.methodC())
-print(d.methodD())
+from abc import ABC, abstractmethod
+
+class ATB(ABC):
+    @abstractmethod
+    def perfrom_task(self):
+        pass
+    @abstractmethod
+    def perform_task1(self):
+        pass
+
+class Dhruvil(ATB):
+
+    def perfrom_task(self):
+        return "Performing task"
+
+    def perform_task1(self):
+        return "Performing task1"
+
+Devil = Dhruvil()
+print(Devil.perfrom_task())
+print(Devil.perform_task1())
