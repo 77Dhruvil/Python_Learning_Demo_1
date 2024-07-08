@@ -33,11 +33,19 @@
 #     print("current Dir")
 
 ###############################################################
+#
+# import os
+#
+# for root ,dir ,files in os.walk("C:\\Users\\PATEL\\PycharmProjects\\Python Learning Demo 1\\EX-05072024"):
+#         print("Current Dir {root}")
+#         print("sub Dir Dir {dir}")
+#         print(f"files Dir Dir {files}")
+#         print(len(files))
+
+#################################################################################################
 
 import os
 
-for root ,dir ,files in os.walk("C:\\Users\\PATEL\\PycharmProjects\\Python Learning Demo 1\\EX-05072024"):
-        print("Current Dir {root}")
-        print("sub Dir Dir {dir}")
-        print(f"files Dir Dir {files}")
-        print(len(files))
+fd = os.open("Test.txt",os.O_RDWR)
+os.write(fd,b"This is a test")
+os.close(fd)
