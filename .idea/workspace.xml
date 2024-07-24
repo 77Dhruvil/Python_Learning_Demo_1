@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="os module complete">
-      <change afterPath="$PROJECT_DIR$/EX-Lab22072024/Test_labpractice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EX-Lab22072024/Test_pytestframework.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EX-Lab22072024/test_4case.py" afterDir="false" />
+    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="pytest framework">
+      <change afterPath="$PROJECT_DIR$/EX-Lab24072024/test_api_automation_full_CRUD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EX-Lab24072024/test_apiautomation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/1c9aa1b6-bda1-41fa-94e0-d0c1c141a810-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/2316b696-f853-45a0-a287-ace1b73c90cc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/6cb0cbde-d199-4994-8bea-516580feb910-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/8d3241ec-5b30-4dd9-b49e-b329a5dd998a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/a17dfe04-59b5-4e91-952e-4f2a58e5a8f1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/a1eed115-4259-482d-99b8-85ca68322d4a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/d8a1bb46-cbe8-43be-a8b0-51ff22a3db3f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure_result/efa59cfe-1272-437e-8108-036c99525551-result.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +48,7 @@
   "keyToString": {
     "Python tests.Python tests for Test_pytestframework.test_addition.executor": "Run",
     "Python tests.Python tests for Test_pytestframework.test_subtraction.executor": "Run",
+    "Python tests.Python tests for test_apiautomation.test_get_single_request_by_id.executor": "Run",
     "Python.All learning till now.executor": "Run",
     "Python.Assignment operator and Equality Operator.executor": "Run",
     "Python.Condition and Loops.executor": "Run",
@@ -84,29 +92,7 @@
       <recent name="C:\Users\PATEL\PycharmProjects\Python Learning Demo 1\EX-Lab12062024" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for Test_pytestframework.test_addition">
-    <configuration name="Condition and Loops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Learning Demo 1" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EX-Lab12062024" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EX-Lab12062024/Condition and Loops.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for test_apiautomation.test_get_single_request_by_id">
     <configuration name="ExceptionHandling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Learning Demo 1" />
       <option name="ENV_FILES" value="" />
@@ -181,13 +167,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_apiautomation.test_get_single_request_by_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Python Learning Demo 1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EX-Lab24072024" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_apiautomation.test_get_single_request_by_id&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_apiautomation.test_get_single_request_by_id" />
         <item itemvalue="Python tests.Python tests for Test_pytestframework.test_addition" />
         <item itemvalue="Python tests.Python tests for Test_pytestframework.test_subtraction" />
         <item itemvalue="Python.ExceptionHandling" />
         <item itemvalue="Python.Inheritance , polymorphisam , Encapsulation" />
-        <item itemvalue="Python.Condition and Loops" />
       </list>
     </recent_temporary>
   </component>
@@ -423,11 +424,26 @@
       <option name="project" value="LOCAL" />
       <updated>1720455377203</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="os module complete">
+      <option name="closed" value="true" />
+      <created>1721667255352</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1721667255352</updated>
+    </task>
+    <task id="LOCAL-00029" summary="pytest framework">
+      <option name="closed" value="true" />
+      <created>1721667279730</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1721667279730</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="EX03062024" />
     <MESSAGE value="Variables and Keywords" />
     <MESSAGE value="Variables and Keywords Day 2 covered all lab excersice" />
     <MESSAGE value="Data Tpye , String List , Intiger" />
@@ -452,6 +468,7 @@
     <MESSAGE value="Exception completed" />
     <MESSAGE value="os module" />
     <MESSAGE value="os module complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="os module complete" />
+    <MESSAGE value="pytest framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="pytest framework" />
   </component>
 </project>
