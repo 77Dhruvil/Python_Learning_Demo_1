@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="pytest framework">
-      <change afterPath="$PROJECT_DIR$/EX-Lab24072024/test_api_automation_full_CRUD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EX-Lab24072024/test_apiautomation.py" afterDir="false" />
+    <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="API Automation">
+      <change afterPath="$PROJECT_DIR$/EX-Lab24072024/Put_request_automation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/1c9aa1b6-bda1-41fa-94e0-d0c1c141a810-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/2316b696-f853-45a0-a287-ace1b73c90cc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/6cb0cbde-d199-4994-8bea-516580feb910-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/8d3241ec-5b30-4dd9-b49e-b329a5dd998a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/a17dfe04-59b5-4e91-952e-4f2a58e5a8f1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/a1eed115-4259-482d-99b8-85ca68322d4a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/d8a1bb46-cbe8-43be-a8b0-51ff22a3db3f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_result/efa59cfe-1272-437e-8108-036c99525551-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EX-Lab24072024/test_api_automation_full_CRUD.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX-Lab24072024/test_api_automation_full_CRUD.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,44 +36,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for Test_pytestframework.test_addition.executor": "Run",
-    "Python tests.Python tests for Test_pytestframework.test_subtraction.executor": "Run",
-    "Python tests.Python tests for test_apiautomation.test_get_single_request_by_id.executor": "Run",
-    "Python.All learning till now.executor": "Run",
-    "Python.Assignment operator and Equality Operator.executor": "Run",
-    "Python.Condition and Loops.executor": "Run",
-    "Python.Data Type , String List , Intiger.executor": "Run",
-    "Python.Exception Handling.executor": "Run",
-    "Python.ExceptionHandling.executor": "Run",
-    "Python.Excersice 12062024.executor": "Run",
-    "Python.Filters.executor": "Run",
-    "Python.Function Scope.executor": "Run",
-    "Python.Functions.executor": "Run",
-    "Python.Import Learing file.executor": "Run",
-    "Python.Inheritance , polymorphisam , Encapsulation.executor": "Run",
-    "Python.Input oprator program.executor": "Run",
-    "Python.Litrals and Oprators.executor": "Run",
-    "Python.Logical Program.executor": "Run",
-    "Python.OOPS Concept(1).executor": "Run",
-    "Python.OOPS Concept.executor": "Run",
-    "Python.OOPs Concept part 2.executor": "Run",
-    "Python.OS Module.executor": "Run",
-    "Python.Own program.executor": "Run",
-    "Python.Print Command and upload on Git.executor": "Run",
-    "Python.Programs.executor": "Run",
-    "Python.Tuple and Decorators.executor": "Run",
-    "Python.Variables and Keywords.executor": "Run",
-    "Python.XOR Operator.executor": "Run",
-    "Python.power Operator.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/PATEL/PycharmProjects/Python Learning Demo 1/EX-Lab26062024",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for Test_pytestframework.test_addition.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for Test_pytestframework.test_subtraction.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_apiautomation.test_get_single_request_by_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python.All learning till now.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment operator and Equality Operator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Condition and Loops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Data Type , String List , Intiger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exception Handling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ExceptionHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Excersice 12062024.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Filters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Function Scope.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Import Learing file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Inheritance , polymorphisam , Encapsulation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Input oprator program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Litrals and Oprators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Logical Program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OOPS Concept(1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.OOPS Concept.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OOPs Concept part 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OS Module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Own program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Print Command and upload on Git.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Programs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tuple and Decorators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Variables and Keywords.executor&quot;: &quot;Run&quot;,
+    &quot;Python.XOR Operator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.power Operator.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PATEL/PycharmProjects/Python Learning Demo 1/EX-Lab26062024&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\PATEL\PycharmProjects\Python Learning Demo 1\EX-Lab26062024" />
@@ -440,11 +432,18 @@
       <option name="project" value="LOCAL" />
       <updated>1721667279730</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="API Automation">
+      <option name="closed" value="true" />
+      <created>1721840950334</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1721840950334</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Variables and Keywords" />
     <MESSAGE value="Variables and Keywords Day 2 covered all lab excersice" />
     <MESSAGE value="Data Tpye , String List , Intiger" />
     <MESSAGE value="Literals and Operators" />
@@ -469,6 +468,7 @@
     <MESSAGE value="os module" />
     <MESSAGE value="os module complete" />
     <MESSAGE value="pytest framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="pytest framework" />
+    <MESSAGE value="API Automation" />
+    <option name="LAST_COMMIT_MESSAGE" value="API Automation" />
   </component>
 </project>
