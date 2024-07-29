@@ -70,3 +70,16 @@ def test_put_request_positive():
     assert response.status_code == 200
     data = response.json()
     assert data ["firstname"] == "Devil"
+
+def test_delete():
+    url = "https://restful-booker.herokuapp.com/booking"
+    booking_id = create_booking()
+    Delete_url = url + str(booking_id)
+    cookie_value = "token" + create_token()
+    headers = {
+        "Content-Type" : "application/json",
+        "Cookie" : cookie_value
+    }
+    print(headers)
+
+    response = requests.delete(url=Delete_url,headers=headers)
