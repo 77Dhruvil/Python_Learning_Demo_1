@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2c1e0a9-004c-40fa-a39f-a1c0e04aa824" name="Changes" comment="Api Automation Crud Opration and put request">
-      <change afterPath="$PROJECT_DIR$/EX-Lab26072024/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EX-Lab26072024/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EX-Lab26072024/API_Automation_Integration_Scenario.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EX-Lab26072024/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EX-Lab26072024/test_lab_009.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fovero_organization_Api_Automation/test_sign_API_Automation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Savvy_wallet_API_Automation/test_Login_API_Automation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Savvy_wallet_API_Automation/test_forgotpassword_API_Automation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Savvy_wallet_API_Automation/test_reset_password_API_Automation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EX-Lab24072024/Put_request_automation.py" beforeDir="false" afterPath="$PROJECT_DIR$/EX-Lab24072024/Put_request_automation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,51 +38,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for API Automation Integration Scenario.test_i_need_confirm.executor": "Run",
-    "Python tests.Python tests for Lab_009.test_update_req.executor": "Run",
-    "Python tests.Python tests for Lab_009.test_updatee_req.executor": "Run",
-    "Python tests.Python tests for Test_pytestframework.test_addition.executor": "Run",
-    "Python tests.Python tests for Test_pytestframework.test_subtraction.executor": "Run",
-    "Python tests.Python tests for test_apiautomation.test_get_single_request_by_id.executor": "Run",
-    "Python tests.Python tests for test_lab_009.test_updatee_req.executor": "Run",
-    "Python tests.Python tests in API Automation Integration Scenario.py.executor": "Run",
-    "Python tests.Python tests in API_Automation_Integration_Scenario.py.executor": "Run",
-    "Python tests.Python tests in Secure_data.py.executor": "Run",
-    "Python.All learning till now.executor": "Run",
-    "Python.Assignment operator and Equality Operator.executor": "Run",
-    "Python.Condition and Loops.executor": "Run",
-    "Python.Data Type , String List , Intiger.executor": "Run",
-    "Python.Exception Handling.executor": "Run",
-    "Python.ExceptionHandling.executor": "Run",
-    "Python.Excersice 12062024.executor": "Run",
-    "Python.Filters.executor": "Run",
-    "Python.Function Scope.executor": "Run",
-    "Python.Functions.executor": "Run",
-    "Python.Import Learing file.executor": "Run",
-    "Python.Inheritance , polymorphisam , Encapsulation.executor": "Run",
-    "Python.Input oprator program.executor": "Run",
-    "Python.Litrals and Oprators.executor": "Run",
-    "Python.Logical Program.executor": "Run",
-    "Python.OOPS Concept(1).executor": "Run",
-    "Python.OOPS Concept.executor": "Run",
-    "Python.OOPs Concept part 2.executor": "Run",
-    "Python.OS Module.executor": "Run",
-    "Python.Own program.executor": "Run",
-    "Python.Print Command and upload on Git.executor": "Run",
-    "Python.Programs.executor": "Run",
-    "Python.Tuple and Decorators.executor": "Run",
-    "Python.Variables and Keywords.executor": "Run",
-    "Python.XOR Operator.executor": "Run",
-    "Python.power Operator.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/PATEL/PycharmProjects/Python Learning Demo 1/EX-Lab26062024",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for API Automation Integration Scenario.test_i_need_confirm.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for Lab_009.test_update_req.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for Lab_009.test_updatee_req.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for Test_pytestframework.test_addition.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for Test_pytestframework.test_subtraction.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Login_API_Automation.test_post_Login_valid_cread.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_apiautomation.test_get_single_request_by_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_lab_009.test_updatee_req.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in API Automation Integration Scenario.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in API_Automation_Integration_Scenario.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Secure_data.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_Login_API_Automation.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.All learning till now.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assignment operator and Equality Operator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Condition and Loops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Data Type , String List , Intiger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exception Handling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ExceptionHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Excersice 12062024.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Filters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Function Scope.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Import Learing file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Inheritance , polymorphisam , Encapsulation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Input oprator program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Litrals and Oprators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Logical Program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OOPS Concept(1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.OOPS Concept.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OOPs Concept part 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OS Module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Own program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Print Command and upload on Git.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Programs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tuple and Decorators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Variables and Keywords.executor&quot;: &quot;Run&quot;,
+    &quot;Python.XOR Operator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.power Operator.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PATEL/PycharmProjects/Python Learning Demo 1/EX-Lab26062024&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\PATEL\PycharmProjects\Python Learning Demo 1\EX-Lab26062024" />
@@ -95,7 +95,7 @@
       <recent name="C:\Users\PATEL\PycharmProjects\Python Learning Demo 1\EX-Lab12062024" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_lab_009.test_updatee_req">
+  <component name="RunManager">
     <configuration name="Python tests for API Automation Integration Scenario.test_i_need_confirm" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python Learning Demo 1" />
       <option name="ENV_FILES" value="" />
@@ -141,18 +141,18 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_apiautomation.test_get_single_request_by_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_Login_API_Automation.test_post_Login_valid_cread" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Python Learning Demo 1" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EX-Lab24072024" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Savvy_wallet_API_Automation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_apiautomation.test_get_single_request_by_id&quot;" />
+      <option name="_new_target" value="&quot;test_Login_API_Automation.test_post_Login_valid_cread&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_Login_API_Automation.test_post_Login_valid_cread" />
         <item itemvalue="Python tests.Python tests for test_lab_009.test_updatee_req" />
         <item itemvalue="Python tests.Python tests for Lab_009.test_updatee_req" />
         <item itemvalue="Python tests.Python tests for Lab_009.test_update_req" />
         <item itemvalue="Python tests.Python tests for API Automation Integration Scenario.test_i_need_confirm" />
-        <item itemvalue="Python tests.Python tests for test_apiautomation.test_get_single_request_by_id" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +445,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721962205535</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Api Automation Crud Opration and put request">
+      <option name="closed" value="true" />
+      <created>1722271635248</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1722271635248</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
